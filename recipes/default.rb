@@ -12,5 +12,9 @@ include_recipe 'tomcat8::extract'
 include_recipe 'tomcat8::permissons'
 include_recipe 'tomcat8::install'
 include_recipe 'tomcat8::reload'
+include_recipe 'tomcat8::config'
+include_recipe 'tomcat8::restart'
+
+
 
 
